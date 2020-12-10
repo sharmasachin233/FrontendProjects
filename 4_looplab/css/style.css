@@ -1,0 +1,44 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+.home {
+  min-height: 700px;
+  background: url(../img/home.jpg) no-repeat center center/cover;
+  position: relative;
+}
+
+.home i,
+.create i {
+  background-color: #fff;
+  color: #008ed6;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.dark-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.home-inner {
+  padding-top: 150px;
+}
+
+.explore i,
+.share i {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}

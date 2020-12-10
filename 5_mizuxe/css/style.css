@@ -1,0 +1,44 @@
+body {
+  margin-top: 105px;
+}
+
+nav {
+  height: 80px;
+  background-color: #fff;
+  font-size: 1.4rem;
+  opacity: 0.9;
+}
+
+nav .nav-item {
+  padding-right: 1.3rem;
+}
+
+.home {
+  min-height: 600px;
+  background: url("./../img/mountains.jpg") no-repeat center center/cover;
+  position: relative;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 146, 166, 0.8);
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+.authors img {
+  margin-top: -50px;
+}
+
+.authors .card:hover {
+  color: #fff;
+  background: #007bff;
+}
